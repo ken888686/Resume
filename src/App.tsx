@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { lazy } from 'react';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className=''>
-      <h1>Hi</h1>
+    <div className='m-1'>
+      <Sidebar />
     </div>
   );
 }
