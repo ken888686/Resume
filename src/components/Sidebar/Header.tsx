@@ -5,7 +5,7 @@ import PersonalInfo from '../../data/constants';
 function Header() {
   const { firstName, lastName, avatar, position } = PersonalInfo;
   return (
-    <header className='mb-5 flex items-center gap-5'>
+    <header className='mb-2 flex items-center gap-5'>
       <Avatar img={avatar} title={`${firstName} ${lastName}`} />
       <div className='-text--light'>
         <h1 className='text-2xl'>{`${firstName} ${lastName}`}</h1>
