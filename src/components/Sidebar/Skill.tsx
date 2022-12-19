@@ -4,7 +4,7 @@ import Separator from '../Common/Separator';
 function Skill() {
   return (
     <div className=''>
-      <h3 className='font-bold uppercase -text--primary'>skills</h3>
+      <h3 className='text-lg font-bold uppercase -text--primary'>skills</h3>
       <Separator />
       <ul className='-text--light'>
         <li>C#</li>

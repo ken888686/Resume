@@ -5,7 +5,7 @@ import EducationList from './EducationList';
 function Education() {
   return (
     <div className=''>
-      <h3 className='font-bold uppercase -text--primary'>Education</h3>
+      <h3 className='text-lg font-bold uppercase -text--primary'>Education</h3>
       <Separator />
       <EducationList />
     </div>

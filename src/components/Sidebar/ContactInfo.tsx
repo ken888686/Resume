@@ -5,7 +5,7 @@ import ContactInfoList from './ContactInfoList';
 function ContactInfo() {
   return (
     <div className=''>
-      <h3 className='font-bold uppercase -text--primary'>contact</h3>
+      <h3 className='text-lg font-bold uppercase -text--primary'>contact</h3>
       <Separator />
       <ContactInfoList />
     </div>
