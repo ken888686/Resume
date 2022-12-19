@@ -3,6 +3,7 @@ import Avatar from './Avatar';
 import Header from './Header';
 import ContactInfo from './ContactInfo';
 import Education from './Education';
+import Skill from './Skill';
 
 function Sidebar() {
   return (
@@ -15,7 +16,9 @@ function Sidebar() {
         <li>
           <Education />
         </li>
-        {/* Skills */}
+        <li>
+          <Skill />
+        </li>
       </ul>
     </aside>
   );

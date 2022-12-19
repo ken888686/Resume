@@ -6,7 +6,7 @@ import ContactInfoItem from './ContactInfoItem';
 function ContactInfoList() {
   const { address } = PersonalInfo;
   return (
-    <ul className='mt-3 flex flex-col gap-2 -text--light'>
+    <ul className='flex flex-col gap-2 -text--light'>
       <ContactInfoItem icon={<IoLocationSharp className='text-xl' />} title='address'>
         <address className='not-italic'>{address}</address>
       </ContactInfoItem>
